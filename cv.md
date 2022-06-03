@@ -15,6 +15,7 @@ Novosibirsk, Russia
 
 
 ## Experience 
+- Machine Learning
 
 
 ## Skills
