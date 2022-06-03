@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://Exinker.github.io/rsschool-cv/cv
+https://Exinker.github.io/rsschool-cv/
