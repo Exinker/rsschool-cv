@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header flex">
+        <nav class="menu centered">
+            <ul>
+                <li class="menu-item inline"><a class="menu-link" href="#Contacts">Contacts</a></li>
+                <li class="menu-item inline"><a class="menu-link" href="#about">About</a></li>
+                <li class="menu-item inline"><a class="menu-link" href="#skills">Skills</a></li>
+                <li class="menu-item inline"><a class="menu-link" href="#code-example">Code</a></li>
+                <li class="menu-item inline"><a class="menu-link" href="#education">Education</a></li>
+                <li class="menu-item inline"><a class="menu-link" href="#pet-projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main container">
+        <h1 class="centered">Pavel Vashchenko</h1>
+        <img class="photo-image" src="./img/photo.jpg" alt="photo image">
+
+        <section class="contacts" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li class="list-item">Phone: <a href="tel:+7-906-907-26-69">+7-906-907-26-69</a></li>
+                <li class="list-item">Email: <a href="mailto:exinker@gmail.com">exinker@gmail.com</a></li>
+                <li class="list-item">Address: Novosibirsk, Russia 630090</li>
+            </ul>
+        </section>
+
+        <section class="about" id="about">
+            <h2>About me</h2>
+            <p>Hello! I'm python application developer at the scientific institute.</p>
+        </section>
+        
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li class="list-item">Python</li>
+                <li class="list-item">PyQt</li>
+                <li class="list-item">Machine Learning</li>
+                <li class="list-item">Linux</li>
+                <li class="list-item">Git</li>
+            </ul>
+        </section>
+        
+        <section class="code-example" id="code-example">
+            <h2>Code Example</h2>
+            <p>
+                <a href="https://www.codewars.com/kata/546e2562b03326a88e000020">Square Every Digit</a>
+            </p>
+            <pre class="code-container"><code>
+<span class="strong-code">def</span> square_digits(number):
+    string = str(number)
+
+    <span class="strong-code">return</span> int(
+        ''.join(
+            [str(int(s) ** 2) for s in string]
+        )
+    )
+            </code></pre>
+        </section>
+        
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li class="list-item">Novosibirsk State University, Department of Quantun Optics, 2006-2012</li>
+                <li class="list-item">Languages: native Russian, A2 English</li>
+            </ul>
+        </section>
+        
+        <section class="pet-projects" id="pet-projects">
+            <h2>Pet projects</h2>
+            <ol>
+                <li class="list-item">
+                    <a href="https://github.com/Exinker/PyQt5_WeatherApp">PyQt5 Weather Application</a>
+                    <div>
+                        <img class="screenshot" src="./img/PyQt5_WeatherApp.png" alt="PyQt5 Weather App screenshot">
+                    </div>
+                </li>
+                <li class="list-item">
+                    <a href="https://github.com/Exinker/Cli_WeatherApp">Command line Weather Application</a>
+                    <div>
+                        <img class="screenshot" src="./img/Cli_WeatherApp.png" alt="Command line Weather App screenshot">
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer class="footer flex">
+        <div class="centered">
+            <ul>
+                <li class="footer-item inline"><span>2022</span></li>
+                <li class="footer-item inline"><a class="footer-link" href="https://github.com/Exinker/"><img src="./img/github.png" alt="github logo" height="50"></a></li>
+                <li class="footer-item inline"><a class="footer-link" href="https://rs.school/js-stage0/"><img src="./img/rs_school_js.svg" alt="rolling scopes school logo" height="50"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
